@@ -8,7 +8,7 @@ stage('scm checkout')
  
 stage('print your message')
  {steps { sh 'echo hello' 
-  sh 'hello Jenkinsfile'  }}       //sh=execute shell
+          sh 'hello Jenkinsfile'  }}       //sh=execute shell
 
 }
 }
